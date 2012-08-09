@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F14C1E2-8A9A-4AA4-9197-1A1320CF5B13}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MemoryGame", "MemoryGame\", "{26BFC426-4BE1-4F3E-8110-8A6973214A09}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "MemoryGame\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MemoryGame\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/MemoryGame"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "MemoryGame\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MemoryGame\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/MemoryGame"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		VWDPort = "2168"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26BFC426-4BE1-4F3E-8110-8A6973214A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BFC426-4BE1-4F3E-8110-8A6973214A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

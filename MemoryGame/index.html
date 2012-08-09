@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Kids Memory Game</title>
+        <meta name = "viewport" content = "width = device-width">
+        <link rel="stylesheet" href="style.css" />
+        <script src="Scripts/jquery-1.7.2.js"></script>
+        <script src="Scripts/knockout-2.1.0.js"></script>
+        <script src="Scripts/game.js"></script>
+
+</head>
+<body>
+
+    <div id="gameboard">
+
+        <div id="boardSelection" data-bind="visible: DisplayNumberSelection">
+
+            <h1>Pick number of cards</h1>
+
+            <div data-bind="foreach: NumberOfCardsList" class="cardsList">
+                <div data-bind="click: $parent.SelectNumberCard"><span data-bind="text:$data"></span></div>
+            </div>
+        </div>
+
+        <div id="board" data-bind="visible: DisplayCards">
+
+            <div data-bind="foreach: Cards" class="cardsList">
+                <div data-bind="click: $parent.SelectCard">
+                    <img data-bind="attr: {src: Url}" />
+                    <span data-bind="text: Name"></span></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+        $(function () {
+
+            var vm = new mainViewModel();
+            ko.applyBindings(vm, document.getElementById("gameboard"));
+
+        });
+
+    </script>
+
+
+</body>
+</html>

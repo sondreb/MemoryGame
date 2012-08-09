@@ -1,0 +1,55 @@
+﻿body {
+    
+    font-family: 'Segoe UI';
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+#gameboard {
+    background-color: gray;
+}
+
+#board {
+    
+    background-color: silver;
+    clear: both;
+    
+}
+
+.cardsList {
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+    .cardsList div {
+        
+        width: 100px;
+        height: 150px;
+        border: 3px solid black;
+        background-color: white;
+        float: left;
+        margin-right: 4px;
+        margin-bottom: 4px;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    
+        .cardsList div:hover {
+        
+        opacity: 0.7;
+    }
+    
+        .cardsList div span {
+            margin-top: 40px;
+            font-size: 1.5em;
+            display: inline-block;
+    }
+        
+        .cardsList div img {
+            width: 100px;
+            height: 150px;
+    }
